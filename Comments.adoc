@@ -1,5 +1,11 @@
 == Chapter 8: Graphical Models
 
+=== 8.4.4: The Sum-Product Algorithm
+
+The book defines 2 types of messages: from variable to factor and from factor to variable. I think there's an insightful unifying definition by taking an edge-centric view and treating variable and factor symmetrically. Given an edge `e` with a prescribed sense of traversal, `e` separates the graph into 2 components `V-` and `V+`; the message going from `V-` to `V+` is a table in `x` (`x` being the variable incident to `e`), associating to each value of `x` the sum of the factors in `V-`, in which `x` is fixed and the other variables of `V-` are varying.
+
+By the way, it wasn't immediately clear to me on first read, that the messages were concretely a table from variable value to probability.
+
 === Exercises
 
 ==== 8.21
