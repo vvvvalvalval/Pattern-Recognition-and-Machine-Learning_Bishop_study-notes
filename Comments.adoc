@@ -1,0 +1,12 @@
+== Chapter 8: Graphical Models
+
+=== Exercises
+
+==== 8.21
+
+It's worth nothing that this is a special case of exercise 8.22, where the subgraph in consideration is the star graph induced by the factor and its neighbouring variables.
+
+
+==== 8.24
+
+Same remark as in 8.21.
