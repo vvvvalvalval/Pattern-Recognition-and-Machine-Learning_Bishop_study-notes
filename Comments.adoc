@@ -9,4 +9,4 @@ It's worth nothing that this is a special case of exercise 8.22, where the subgr
 
 ==== 8.24
 
-Same remark as in 8.21.
+Same remark as in `8.21`. **SUGGESTION:** Isn't this actually the same exercise as `8.21`?
